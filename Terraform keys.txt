@@ -1,0 +1,3 @@
+Terraform
+acess key: AKIATGEKXF5IROQCBWF2
+secret access key: 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
