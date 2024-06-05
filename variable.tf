@@ -79,3 +79,10 @@ variable "multi_az_deployment" {
     description  = "ssl certificate arn"
     type         = string
  }
+
+ # sns topic variables
+ variable "operator_email" {
+    default      = "mercyonanike@gmail.com"
+    description  = "a valid email address"
+    type         = string
+}
