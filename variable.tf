@@ -40,3 +40,10 @@ variable "vpc_cidr" {
     description  = "private data subnet az2 cidr block"
     type         = string
  }
+
+# security group variables
+variable "ssh_location"{
+    default      = "0.0.0.0/0"
+    description  = "the ip address that can ssh into the ecs instances"
+    type         = string
+ }
